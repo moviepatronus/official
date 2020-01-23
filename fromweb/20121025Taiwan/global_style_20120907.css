@@ -1,0 +1,151 @@
+/**global**/
+*{margin:0 auto; padding:0px; border:0; list-style:none;}
+body,td,th {margin:0 auto; padding:0; font-size:12px; font-family:"宋体"; text-align:center;}
+header,section,nav,article,aside,footer,hgroup { display:block; }
+form,div,p,span,label,i,ul,ol,li,dl,dt,dd,fieldset,legend { margin:0; padding:0; }
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0;  }
+table,td,input,select,textarea { font-size:12px; }
+ul,li,h1,h2,h3,h4,h5,h6{border:0;}
+td,li,select,input,textarea,div{text-align:left;}/** font-size:12px; **/
+select,input{vertical-align:middle;}
+select{margin:0; padding:0; text-align:center; border:#acacac 1px solid;}
+
+p{font-family:"宋体";line-height:25px; }
+p img {border:1px #ccc solid; padding:3px;background:#f5f5f5;}
+li {list-style:none; }
+img {vertical-align:middle; background:url("http://ats.taiwan.cn/images/loading.gif") no-repeat center center; border:0;}
+.fl {float:left;}.fr {float:right;}
+.hr01{margin-top:14px!important;margin-top:7px;width:96%;height:1px;border:none;border-top:0px dashed #96c2f1;}
+#loading{z-index:1;padding:5px 0 5px 9px;background:#c44;left:0;top:0;width:90px;color:#fff;position:fixed;}
+
+/*topline style */
+.top-area{width:1002px; margin:0px auto; height:32px; text-align:left; margin-bottom:5px; background:#fff;}
+.time{float:left; width:280px; height:32px; line-height:32px; padding-left:15px;}
+.top-login{ float:right; width:500px; height:32px; line-height:32px; text-align:right; padding-right:5px;}
+
+.dblack{color:#000; font-size:13px;}
+.dblack a:link,.dblack a:visited{color: #000; text-decoration:none;}
+.dblack a:hover,.dblack a:active{color: #ba2636; text-decoration:none;}
+
+.dgray{color:#525252; font-size:13px;}
+.dgray a:link,.dgray a:visited{color: #525252; text-decoration:none;}
+.dgray a:hover,.dgray a:active{color: #ba2636; text-decoration:none;}
+
+.dred{color:#900; font-size:13px;}
+.dred a:link,.dred a:visited{color:#900; text-decoration:none;}
+.dred a:hover,.dred a:active{color:#ba2636; text-decoration:none;}
+
+.weight7{ font-weight:700; font-size:13px;}
+.weight7 a:link,.weight7 a:visited{font-weight:700; text-decoration:none;}
+.weight7 a:hover,.weight7 a:active{font-weight:700; text-decoration:none;}
+
+.fenge{display:block;float:right;padding:0px 8px;background:url(http://ats.taiwan.cn/images/nav_vlineyipix.gif) no-repeat 0px 7px; }
+.fenge0{display:block; float:right;padding:0px 8px; }
+
+/* global top search nav footer*/
+.navbox{margin:0 auto; width:1002px; border:#ccc 1px solid; border-top:none; background:#fff;}
+.top_nav{margin:0 auto; padding:0;}
+.top_logo{float:left; padding:2px 8px 5px 5px; width:155px;}
+.top_nav_son{float:left; padding:0 4px; border-left:#ccc 1px solid;}
+.navlist li{float:left; padding:5px 10px; font-size:14px; color:#000;}
+.navlist li a{color:#000; text-decoration:none;}
+.navlist li a:hover{color:#ba2636; text-decoration:none;}
+.navbottom{margin:0 auto; width:1004px; height:5px; line-height:5px; background:#eee;}
+#tr-dott{border-bottom:1px #aacded dotted}
+.left-r{border-left:1px #bbb solid;border-right:1px #bbb solid;}
+
+/*頻道頭部導航定義*/
+.top-ad{ margin:0px auto; width:1002px; height:105px; border:#ccc 1px solid; text-align:center;}
+.top-ad img{width:1002px; height:105px;}
+#sec-nav{ margin:0px auto; width:1004px; height:34px;background:#fff;}
+.sn-logo{ float: left; width:102px; height:100%;}
+.sn-search{ float:right; width:902px; height:26px; padding-top:8px;}
+.snse-hot{ float:right; padding:8px 10px 0;height: 17px; line-height:17px; }
+.search{float: right;width:210px;height:100%;padding-top:5px;}
+.snse-form{display:block;float:left; border:#acacac 1px solid;  border-right:0; width:120px; height:19px;_height:19px; line-height:19px;}
+.am {border: 0px; float:left;cursor: pointer;border:#acacac 1px solid;display:block;cursor:pointer;width:80px;height:22px;}
+.bm {float:left;border: 1px #acacac solid;width:70px;margin-left:120px;}
+.cur {cursor:pointer;display:block;width:70px;height:20px;line-height:20px;}
+.snse-butt{float:right;display:block; padding-top:0px; background:url(http://ats.taiwan.cn/images/search01.gif) no-repeat 0 5px;width:50px;height:100%;line-height:30px;padding-left:18px;}
+.snse-butt a{float:right;display:block;border:0px;background:url(http://ats.taiwan.cn/images/search01.gif) no-repeat 0 5px;width:50px;height:100%;line-height:30px;padding-left:18px;}
+
+.senav-area{margin:0 auto 5px; width:1004px; height:40px; line-height:40px; border-bottom:#264393 1px solid; border-top:#264393 3px solid;background:#fff;}
+.senav-area ul{ float:left; width:1004px; text-align:center;}
+.senav-area ul li{display:inline;padding:0px 6px;height:40px;line-height:40px;}
+.senav-area ul li a{color:#000; text-decoration:none;}
+.senav-area ul li a:hover{color:#ba2636; text-decoration:none;}
+
+.white{ color:#fff;}
+.white a{color:#fff;}
+.white a:hover{color:#fff;}
+
+/********** start翻頁樣式 *********/
+
+.pageroll{width:auto; margin:auto;padding-bottom:5px;padding-right:5px;}
+
+.hcc {
+	padding: 0px;  float: none;  margin: 0px; 
+}
+.fbb {
+	font-weight: bold
+}
+.bwdd_yyy {
+	margin-top: 15px; background: #e5e5e5; left: 4px; width: 652px; position: relative;
+}
+.bwddd {
+	padding-right: 5px; border: #aaccee 1px solid; padding-left: 5px; background: #ffffff; left: -4px; padding-bottom: 5px; width: 640px; color: #049; LINE-HEIGHT: 16px; padding-top: 5px; position: relative; top: -4px
+}
+.vcc {
+	margin:auto;padding-right: 10px; padding-left: 10px; padding-bottom: 15px; word-break: break-all; padding-top: 15px; word-warp: break-word
+}
+.vcc a.o:link {
+	border-right: #ccc 1px solid; padding-right: 6px; border-top: #ccc 1px solid; padding-left: 6px; padding-bottom: 1px; margin: 4px; border-left: #ccc 1px solid; padding-top: 3px; border-bottom: #ccc 1px solid; text-decoration: none
+}
+.vcc a.o:visited {
+	border-right: #ccc 1px solid; padding-right: 6px; border-top: #ccc 1px solid; padding-left: 6px; padding-bottom: 1px; margin: 4px; border-left: #ccc 1px solid; padding-top: 3px; border-bottom: #ccc 1px solid; text-decoration: none
+}
+.vcc a.o:hover {
+	border-right: #666 1px solid; border-top: #666 1px solid; border-left: #666 1px solid; border-bottom: #666 1px solid; text-decoration: none;
+}
+.vcc a.obg:link {
+	background: #0071b5; color: #fff;
+}
+.vcc a.obg:visited {
+	background: #999; color: #fff;
+}
+.hc {padding:0px;  float:none; margin:0px;}
+.fb {font-weight:bold;line-height:24px;}
+.bwdd_yy {margin:0; left: 4px; positon:relative;}
+.bwdd {padding:0px; left: -4px; color:#049; line-height: 16px; positon:relative; top: -4px;}
+.vc {padding:0px; word-break:break-all; word-warp: break-word; text-align:center;}
+.vc a.o:link {border:#ccc 1px solid; padding:1px 6px 1px 6px; margin:1px; text-decoration:none;}
+.vc a.o:visited {border:#ccc 1px solid; padding:1px 6px 1px 6px; margin:1px; text-decoration:none;}
+.vc a.o:hover {border:#666 1px solid; text-decoration:none;}
+.vc a.obg:link {background:#0071b5; color:#fff;}
+.vc a.obg:visited {background:#999; color:#fff;}
+.fonttype{
+         font-family:serif , sans-serif , Courier, "Courier New", monospace;
+         font-weight:bold;
+		 line-height:42px;
+         font-size:36px;
+         
+}
+/********** end翻頁樣式 *********/
+
+/***footer***/
+.lw-foot{color:#000;text-align:center; padding-top:10px;margin-top:10px; border-top:#ccc 3px solid;background:#fff;}
+.lw-foot a{color:#000; text-decoration:none; }
+.lw-foot a:hover{color:#007dc5; text-decoration:underline; }
+/*** end footer***/
+/**********友情連結*********/
+.zgtw_link {width:1004px; height:50px; margin:auto; background:#fff; border-bottom:1px solid #bbb; border-top: 5px solid #bbb;}
+.zgtw_pic{width:120px; padding-top:6px; text-align:center; float:left;}
+.zgtw_link-a{float:left;line-height:25px; margin-left:10px; width:865px; height:50px; border-left:#ccc 1px solid;}
+.zgtw_link-a a{color:#818181;word-spacing: 1.2em;}
+.zgtw_link-a a:hover{color:#c00;text-decoration: none;}
+.link_global_style {font-family: "宋体"; color: #002864; font-size: 12px; text-decoration: none}
+.link_global_style a {font-family: "宋体"; color: #002864; font-size: 12px; text-decoration: none}
+.link_global_style a:hover {text-decoration: underline}
+#IssueList {background-color: #fff; list-style-type: none; margin: 0px; padding-left: 15px;margin-top: 15px; width: 855px; height: 20px; color: #333; overflow: hidden; padding-top: 0px
+}
+/*********友情連結*********/

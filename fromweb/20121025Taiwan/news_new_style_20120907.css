@@ -1,0 +1,127 @@
+/* CSS Document */
+*{margin:0px;padding:0px; }
+html{}
+body{font-size:12px; font-family:"宋体";background-color: #eee;color: #000;}  
+ul,li,ol{ list-style:none;border:0;}
+h1,h2,h3,h4,h5,h6 {margin:0; padding:0; font-size:12px; font-weight:normal;}
+img {border:0;}
+
+a{color: #000; text-decoration: none;}
+a:hover{color: #ba2636;text-decoration: underline;}
+
+#zl_main{width:1004px;margin:0px auto;text-align:left;background:#fff;}
+#zl_container{ width:700px;float: left;height:100%;}
+
+
+
+/* 文章內容定義 */
+.zltextbox{ width:700px;border-bottom:1px solid #d8d9db;border-left:1px solid #d8d9db;border-right:1px solid #d8d9db; height:100%;float: left;}
+.zl_site{padding:0px 0px 0px 10px;height:50px;line-height:50px;border-top:5px solid #3366c2;border-bottom:1px solid #bebebe;}
+.zl_site a{color:#007dc5;text-decoration:underline;}
+.zl_site a:hover{color:#ba2636;text-decoration:none;}
+.zl_text{height:100%;padding:10px 35px;}
+.zl_text h1{font-size:24px;font-weight: 700;text-align: center; padding:20px 0;line-height:1.2;}
+.zlt_info{text-align:center;}
+.zlt_info p{font-family:"宋体";}
+.zlt_info_l{display:block; padding:0px 10px;float:left;color:#999;}
+.zlt_info_l a{color:#999;}
+.zlt_info_l a:hover{color:#ba2636;}
+.zlt_info_r{display:block;padding:0px 10px;float:right;color:#000;}
+.zlt_info_r a{color:#000;}
+.zlt_info_r a:hover{color:#ba2636;}
+/* 列表頁面定義 */
+.jmcn-list{
+float:left;width:610px;margin:30px 35px 10px 35px;line-height:2em;_margin:15px 6px 5px 6px;}
+.jmcn-list ul{ width:600px; height:100%;padding-bottom:10px; }
+.jmcn-list ul li{padding-left:10px; height:100%; font-size:14px; color:#034277; background:url("http://ats.taiwan.cn/images/icon.gif") no-repeat 0 11px;} 
+.jmcn-list ul li  a{color:#034277; text-decoration:none; }  
+.jmcn-list ul li  a:hover{color: #ba2636; text-decoration:none;}
+/*推薦新聞 */
+.xw_item_a{ margin:0 10px 10px;}
+.xw_share{ background:url("http://ats.taiwan.cn/images/xw_tjbg.gif") no-repeat; line-height:28px; height:28px; text-align:right;}
+.xw_item_a ul{border:1px solid #97b0dd; padding:15px 0px;zoom:1;}
+.xw_item_a ul li{ float:left; width:290px; padding-left:10px;}
+.xw_item_a ul li a{color: #3866c4;font-size:14px;}
+.xw_item_a ul li a:hover{color: #ba2636;font-size:14px;}
+.xw_item_a ul:after{content:"."; height:0; visibility:hidden; display:block; clear:both;}
+
+.fontResizer{display:block;float:right;padding:0px 5px;}
+.fontsizebox{margin:30px 0px 10px 0px;line-height:2em;border-top:1px solid #d8d9db;padding-top:20px;}
+.fontsizebox p{padding-bottom:22px;}
+.zl_editor{ text-align:right; font-size:12px;border-top:1px dashed #999;padding-top:20px;margin-top:20px;}
+
+/*相關專題相關閱讀 */
+.zl_special{ height: 60px;line-height:60px;padding:0px 10px;border-top: 1px dashed #999;font-size: 14px;color: #3866c4;}
+.zl_special a{color: #3866c4;}
+.zl_special a:hover{color: #ba2636;}
+.zl_special span{ padding-right:10px; font-weight:700;}
+.zl_read{padding:0px 10px 15px 10px;color: #034277;border-top: 1px dashed #999;font-size: 14px;} 
+.zl_read h3{font-size: 14px; font-weight:700;height:40px; line-height:40px; color: #034277;}
+.zl_read ul{width: 610px; height:100%;}
+.zl_read ul li{list-style-position: inside;list-style-type: square;color: #3866c4; font-size:14px; padding-bottom:6px;}
+.zl_read ul li a{color: #034277;}
+.zl_read ul li a:hover{color: #ba2636;}
+.zl_read ul li span{ font-size:12px;color: #999; padding-left:10px;}
+
+/*精彩推薦 */
+.zl_fitem{position:relative;z-index:1;width:700px;height:100%;border-top:5px solid #3366c2;float:left;margin-top:15px;}/* 修改顏色請修改5px的border線 */
+.cnit_area{width:700px;height:100%;}
+.cnit_title{height:22px;border-bottom:1px solid #3366c2;padding:10px 10px 5px 10px;line-height:22px;background:url(http://ats.taiwan.cn/images/jingmao_21.gif) no-repeat 5px 10px;text-align:right;margin-bottom:10px_margin-bottom:5px;}
+.cnit_title span{ padding:0px 5px;}
+.cnit_title span.selected a{ color:#df400b;}
+.cnit_lab{position: absolute;z-index:100;top: 10px; left:10px; padding:5px 3px; background: #FFF; font-size:20px;color: #3866c4; font-weight:900;}
+.cnit_area_box ul{ list-style:none;}
+.cnit_area_box ul li{  padding:10px 0px 5px 10px; font-size:14px; float:left; }
+.cnit_area_box img{ width:158px; height:118px; border:1px solid #9b9b9b;}
+.cnit_area_box p{ width:158px; text-align:center; padding:2px 0 0 0; font-size:12px;line-height:120%;height:32px;}
+
+.img_list_news_img ul{ list-style:none;}
+.img_list_news_img ul li{  padding:10px 0px 5px 10px; font-size:14px; float:left; }
+.img_list_news_img img{ width:140px; height:110px; border:1px solid #9b9b9b;}
+.img_list_news_img p{ width:140px; text-align:center; padding-top:5px; font-size:12px;}
+
+/* 側邊欄 */
+#zl_sidebar{width:286px;float:right;height:100%;}
+.zl_item{width:285px;height:100%;border-top:5px solid #3366c2;position:relative;z-index:1;}
+.zl_lab{position: absolute;z-index:100;top: 10px; left:0px; padding:5px 3px; background: #FFF; font-size:20px;color: #3866c4; font-weight:900;}
+.zl_lab a{ color:#3866c4;}
+.zl_item_more{position:relative; z-index:1; border-bottom:1px solid #767676; text-align:right; padding:10px 5px 0px 5px; height:22px; line-height:22px;width:275px; }
+.zl_item_more span{ padding:0px 5px;}
+.zl_item_more span.selected a{ color:#df400b;}
+.zl_item_box{ width:285px;padding:20px 0px 10px;}
+.zl_item_box ul{list-style:none; }
+.zl_item_box ul li{background:url('http://ats.taiwan.cn/images/icon.gif') no-repeat 8px 10px; padding:0px 5px 3px 15px;line-height:2em;}
+/* 圖瞰天下*/
+.xw_item_b ul{padding:15px 0px;zoom:1;}
+.xw_item_b ul li{ float:left;  padding-left:10px;}
+.xw_item_b ul li img{width:125px; height:83px; }
+.xw_item_b ul li p{ width:125px;  text-align:center;padding:2px 0 0 0; font-size:12px;line-height:120%;height:32px;}
+.clear{ clear: both; height:0; line-height:0px; visibility: hidden; }
+/* 24小時新聞*/
+.xw_item_f{width:285px;height:100%;border-top:5px solid #3366c2;}
+.xw_item_c{background: url('http://ats.taiwan.cn/images/xw_line_gray.gif') repeat-x bottom;padding-top:15px; padding-left:10px;width:275px;height:30px;}
+.xw_item_c span{ float:left; display:block;height:28px;line-height:28px; width:120px; text-align:center; font-size:14px; color:#717171; font-weight:700;  }
+.xw_item_c span.selected{ display:block; height:29px;line-height:29px;background:#FFF; float:left; color:#3366c2; border-bottom:none;border-top:1px solid #767676;border-left:1px solid #767676;border-right:1px solid #767676;}
+.xw_item_c span  a{ color:#3866c4;}
+ul.xw_item_e{width:285px;padding:15px 0px;list-style:none; background: url('http://ats.taiwan.cn/images/xw_phbg.gif') no-repeat 8px 22px;}
+ul.xw_item_e li{ line-height:25px; padding:0px 0px 0px 30px; }
+ul.xw_item_e li.selected a{color:#ec2b46;}
+.xw_item_emore{ text-align:right; padding:10px 10px 0px;}
+/*本網快訊*/
+ul.xw_item_d{width:285px;padding:15px 0px;list-style:none;}
+ul.xw_item_d li{background:url('http://ats.taiwan.cn/images/icon.gif') no-repeat 8px 10px; padding:0px 5px 3px 15px;line-height:2em;}
+/*臺灣週報*/
+.xw_item_g{width:285px;padding:5px 0px 15px 0px;}
+.xw_item_gbox{ width:120px; float:left; padding:10px; }
+.xw_item_gbox img{ width:120px; height:83px;}
+.xw_item_gbox h3{ padding:5px 0px; text-align:center; }
+.xw_item_g p{ clear:both; padding:1px 10px;}
+/*互動社區*/
+.xw_item_h{ width:285px;padding:20px 0px 10px;}
+.xw_item_h ul{list-style:none; }
+.xw_item_h ul li{padding:0px 5px 2px 15px;line-height:2em;}
+.xw_item_h ul li span a{ color:#3866c4;}
+/*******doc from*******/
+p.qt201307{ font-size:12px; color:#999;}
+p.qt201307 a{ color:#999; text-decoration:none}
+p.qt201307 a:hover{ color:#ba2636; text-decoration:none}
