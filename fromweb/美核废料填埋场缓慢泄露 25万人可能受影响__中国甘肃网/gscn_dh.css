@@ -1,0 +1,40 @@
+.gscn_w980{ width:980px; margin:0 auto;display: block; overflow:hidden;}
+.gscn_center{ text-align:center;}
+.gscn_clear {clear:both;} 
+
+/* ��ҳ������ʽ */	
+.ch_navmenu dl, .ch_navmenu dt, .ch_navmenu dd { margin: 0; padding: 0; }
+.ch_navmenu { height: 55px;_height: 50px; width: 980px; margin: 0px 0px auto; border: 0px solid #d5d5d5; }
+.ch_navmenu .ch_vb { height: 55px;_height: 50px;  width: 1px; background: url(http://www.gscn.com.cn/news/images/nav_shuxian.gif) repeat-y; margin: 3px 2px; float: left; }
+.ch_navmenu .GsCnlogo { height: 55px;_height: 50px;  width: 140px; background: url(http://www.gscn.com.cn/news/images/xlogo.gif) 5px -2px no-repeat; }
+ .ch_navmenu .GsCnlogo { _background: url(http://www.gscn.com.cn/news/images/xlogo.gif) 5px -2px no-repeat; }
+.ch_navmenu #GsCnlogo  h3 a{ height: 55px;_height: 50px;  width: 140px; text-indent:-5000px;display:block;float: left;}
+
+
+.ch_navmenu a {float: left; color: #333333; font-size: 12px; line-height: 22px; text-decoration: none; padding: 0 4px; text-align: center; display: inline; }
+.ch_navmenu a:hover { color: #CC0000; text-decoration: underline; }
+.ch_navmenu dd { width: 108px; float: left; padding: 8px 0 4px 5px; _padding: 8px 0 4px 3px;}
+.ch_navmenu .w5 { width: 3px; padding: 0; }
+.ch_navmenu .w140 { width: 140px; }
+.ch_navmenu .w70 { width: 75px;}
+.ch_navmenu .w120 { width: 125px; _width: 115px;}
+.ch_navmenu .w150 { width: 155px; _width: 140px;}
+.ch_navmenu .C_blue { color:#3876cd; }
+
+#footer {background:url(http://www.gscn.com.cn/news/images/endnav_bg.jpg) left -67px repeat; margin:0 auto 0;height:37px; line-height:38px; overflow:hidden; font-size:12px;width:980px;}
+#footer .footright {background:url(http://www.gscn.com.cn/news/images/endnav_bg.jpg) right -141px no-repeat; display:block; width:8px; height:37px; float:right; overflow:hidden;}
+#footer .footnav {background:url(http://www.gscn.com.cn/news/images/endnav_bg.jpg) left -30px no-repeat; height:37px; float:left; line-height:38px; color:#1E50A2; overflow:hidden;}
+#footer .footnav a {background:url(http://www.gscn.com.cn/news/images/endnav_bg.jpg) 4px -104px no-repeat; float:left; padding:0 5px 0 13px;}
+#footer .footnav .firstNode {background:none;}
+#footer .goHome {float:right; width:85px; height:23px; background:url(endnav_bg.jpg) left -178px no-repeat; overflow:hidden; text-indent:-19em; margin:8px 5px 0 0;}
+#footer .footnav a,#footer .footnav a:visited {color:#666666;}
+#footer .footnav a:hover {color:#cc0000;}
+#footer .footsearch {float:right; display:inline; width:128px; height:20px; margin:9px 13px 0 0; overflow:hidden;display:none;}
+#footer .footsearch .textBox {background:url(http://www.gscn.com.cn/news/images/endnav_bg.jpg) right -202px no-repeat; width:106px; height:20px; line-height:20px; text-indent:4px; padding:0; border:none;color:#666; float:left;}
+#footer .footsearch .footsearchbtn {background:url(http://www.gscn.com.cn/news/images/endnav_bg.jpg) left -222px no-repeat; width:22px; height:20px; border:none; text-indent:-100em; cursor:pointer; float:left;}
+
+.blank { clear:both; height:8px; overflow:hidden; display:block;}
+.dbLine {display:block; clear:both; overflow:hidden; height:1px; background:url(http://www.gscn.com.cn/news/images/all_icon.png) left -263px repeat-x;margin:5px auto}
+.foot_n{width:780px;height:100px;margin:0 auto;line-height:22px;padding:auto 100px;text-align:center;color:#666666;}
+.foot_n a,.foot_n a:visited {color:#666666;}
+.foot_n a:hover {color:#cc0000;}
